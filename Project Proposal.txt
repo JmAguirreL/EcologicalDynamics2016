@@ -1,0 +1,80 @@
+Project Proposal: Evolutionary trade-offs in a predator-prey relationship
+
+Introduction and Background
+
+As globalization and anthropogenic climate change increase, previously stable ecosystems are 
+being threatened by invasive species and temperature rise. While these changes are on too small 
+of a time scale to allow species-wide evolution, individual organisms in local communities are 
+able to undergo a rapid adaptation in order to cope with a changing environment (3). This 
+phenotypic plasticity takes form in several ways. Arthropods acclimating to higher temperatures 
+in order to resist desiccation is an example of responding to environmental change (2), while 
+intertidal snails developing thicker shells in the presence of predatory crabs (7) and plants 
+increasing their amount of defense glands (1) are defense strategies developed to resist predation. 
+
+While the latter form of phenotypic plasticity is effective in reducing the number of species 
+consumed by predators, evidence suggests that it comes at the cost of growth and reproductive 
+ability in plant organisms. For plants in areas with high levels of resource availability, growth 
+rate and secondary metabolism – responsible for herbivore-resistant defenses – are inversely 
+related; the more nutrients being dedicated to defense, the less available for growth (4). 
+Additionally, a greater presence of herbivores inciting an increase in defensive structures and a 
+reduction in floral volatile organic compounds causes reduced attraction of plants to pollinators, 
+leading to delayed flowering, lower seed production, and ultimately less reproduction (5).
+
+Questions and Goals
+
+The knowledge that plants must sacrifice reproductive ability in order to develop greater 
+predatory defenses does not inherently give rise to conclusions regarding the extent to which this 
+trade-off effects persistence or the optimal amount of defense required to thrive in the presence 
+of a predator. Therefore, with this study I plan to answer the question: Which strategies, in terms 
+of the ratio of defensive ability to reproductive ability, yield the strongest population of a plant 
+species in the presence of a predator?
+
+Methodological Approach
+
+This plant-herbivore relationship will be modeled using a spatially-explicit two species lattice 
+model. Cells will be updated asynchronously according to rules derived from the defensive and 
+reproductive abilities of the plant species; mainly, high defensive ability reduces the probability 
+of the plant being colonized by the herbivore while low reproductive ability reduces the 
+probability of the plant colonizing an empty cell. The defensive ability and reproductive ability 
+of the plant species will be selected using one of several curves modeled after the theta logistic 
+curve (6), and will remain continuous throughout each simulation because reproduction is 
+assumed to be asexual. The size of the plant population will be measured after simulating the 
+dynamics for several thousand time steps.
+
+Expectations and Implications
+
+The expected outcome of this study is a definite proportion of defensive ability to reproductive 
+ability which causes the most successful plant species in a predatory relationship. This result will 
+likely be one (or more) of three possible outcomes: low reproductive and high defensive ability, 
+low defensive and high reproductive ability, or moderately low reproductive and defensive 
+ability - a high reproductive and defensive ability is unlikely due to resource limitation (1). 
+
+Once quantified, this outcome will give insight as to which of the two traits are more important 
+in plant persistence, and allow ecologists to adapt their strategies in conservation and invasive 
+species mitigation accordingly. Further research could expand this study to involve competition 
+between more than two species and account for non-plant organisms. 
+
+Key References
+
+1. Agrawal, A. A. Phenotypic Plasticity in the Interactions and Evolution of Species. Science 
+294, 321–326 (2001).
+
+2. Chown, S. L., Slabber, S., McGeoch, M. A., Janion, C. & Leinaas, H. P. Phenotypic plasticity 
+mediates climate change responses among invasive and indigenous arthropods. Proceedings of 
+the Royal Society of London B: Biological Sciences 274, 2531–2537 (2007).
+
+3. Fussmann, G. F. & Gonzalez, A. Evolutionary rescue can maintain an oscillating community 
+undergoing environmental change. Interface Focus 3, 20130036 (2013).
+
+4. Herms, D. A. & Mattson, W. J. The Dilemma of Plants: To Grow or Defend. The Quarterly 
+Review of Biology 67, 283–335 (1992).
+
+5. Schiestl, F. P., Kirk, H., Bigler, L., Cozzolino, S. & Desurmont, G. A. Herbivory and floral 
+signaling: phenotypic plasticity and tradeoffs between reproduction and indirect defense. New 
+Phytol 203, 257–266 (2014).
+
+6. Sibly, R. M., Barker, D., Denham, M. C., Hone, J. & Pagel, M. On the Regulation of 
+Populations of Mammals, Birds, Fish, and Insects. Science 309, 607–610 (2005).
+
+7. Trussell, G. C. Phenotypic Plasticity in an Intertidal Snail: The Role of a Common Crab 
+Predator. Evolution 50, 448–454 (1996).
